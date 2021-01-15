@@ -1,6 +1,3 @@
 module.exports = function (){
-process.stdout.write(process.cwd());
-
-process.stdout.write("\nprompt > ");
-
+    process.stdout.write(process.cwd());
 }
